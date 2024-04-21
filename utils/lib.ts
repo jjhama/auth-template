@@ -5,7 +5,8 @@ export interface SessionData {
     userName?:string,
     img?:string,
     isPremium?:boolean,
-    isLoggedIn:boolean
+    isLoggedIn:boolean,
+    isBlocked?:boolean
 }
 
 export const defaultSession: SessionData = {
